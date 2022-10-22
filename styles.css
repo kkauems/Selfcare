@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    align-self: center;
+}
+
+.logo{
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 5px;
+}
+
+#header{
+    height: 94px;
+    padding: 0px 69px 0px 69px;
+    display: flex;
+    align-items: center;
+}
+
+#buttons{
+    margin-left: auto;
+}
+
+.buttons-header{
+    margin: 0 19px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.underbanner{
+    height: 85px;
+    padding: 0px 69px 0px 69px;
+    display: flex;
+    align-items: center;
+}
+
+.fontLato{
+    font-family: 'Lato', sans-serif;
+    color: #161616;
+}
+
+.fontLato-bold{
+    font-family: 'Lato', sans-serif;
+    color: #161616;
+    font-weight: bold;
+}
+
+.promotion-text{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.products-text{
+    margin-left: auto;
+}
+
+.products-text-1{
+    margin: 0 19px;
+    font-size: 18px;
+    line-height: 21.6px;
+}
+
+#grid-container{
+    display: grid;
+    gap: 65px 195px;
+    padding: 57px 70px 116px 70px;
+}
+
+.image-fit{
+    width: 303px;
+    height: 303px;
+    object-fit: cover;
+}
+
+.itemText{
+    padding: 23px 0px 11px 0px;
+    width: 292px;
+    height: 23px;
+    font-size: 22px;
+    line-height: 26.4px;
+}
+
+.itemPrice{
+    width: 292px;
+    height: 30px;
+}
+
+.rs{
+    font-size: 20px;
+}
+
+.price{
+    color: #5CA720;
+    font-size: 25px;
+}
+
+.item1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.item3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.item4{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.item5{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item6{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.item7{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.item8{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.item9{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#footer{
+    height: 216px;
+    width: 1446px;
+    display: flex;
+    align-self: center;
+}
+
+.fontFooter{
+    font-size: 20px;
+    line-height: 24px;
+    padding: 40px 455px 93px 77px;
+    
+}
+
+.footerText{
+    padding: 5px 0px 5px 0px;
+}
+
+.newsletter{
+    padding: 55px 70px 0px 0px;
+}
+
+.emaildiv{
+    padding-top: 18px;
+}
+
+.email{
+    width: 397px;
+    height: 54px;
+    padding-left: 13px;
+    border: 0.5px solid #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe{
+    position: absolute;
+    width: 152px;
+    height: 54px;
+    align-content: center;
+    background-color: #5CA720;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+
+.subscribeText{
+    color: #FFFFFF;
+    padding: 15px 33px 15px 34px;
+}
+
+.footerIcons{
+    height: 132px;
+    width: 1446px;
+    display: flex;
+    align-self: center;
+}
+
+.insta{
+    padding: 43px 10px 55px 71px;
+    align-self: center;
+}
+
+.face{
+    padding: 43px 511px 55px 10px;
+    align-self: center;
+}
+
+.mastercard{
+    padding: 43px 12px 55px 511px;
+    align-self: center;
+}
+
+.paypal{
+    padding: 43px 12px 55px 12px;
+    align-self: center;
+}
+
+.visa{
+    padding: 43px 0px 55px 12px;
+    align-self: center;
+}
